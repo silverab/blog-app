@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 django = "*"
+whitenoise = "==4.1.4"
 
 [dev-packages]
 
