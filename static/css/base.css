@@ -18,6 +18,7 @@ header h1 a {
 }
 
 .nav-right {
+	float: right;
 	display: flex;
 	padding-top: 2rem;
 }
