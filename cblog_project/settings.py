@@ -25,7 +25,7 @@ SECRET_KEY = 'ucpyc%=!oyp#9x1-6zrcby@%e!a$0v51ues57xc*w83qgq5b16'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -119,9 +119,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-# STATIC_ROOT = ''
+
 STATIC_URL = '/static/'
+
 STATICFILES_DIR = os.path.join(BASE_DIR, 'static')
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
